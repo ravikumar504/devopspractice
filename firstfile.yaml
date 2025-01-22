@@ -1,6 +1,6 @@
 - name: install nginx
   hosts: local
-  conection: local
+  connection: local
   tasks:
   - name: play1 and task1
     ansible.builtin.debug:
