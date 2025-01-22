@@ -1,0 +1,12 @@
+- name: install nginx
+  hosts: local
+  conection: local
+  tasks:
+  - name: play1 and task1
+    ansible.builtin.debug:
+      msg: "Hello from play1 and task1"
+  
+  
+
+
+ 
